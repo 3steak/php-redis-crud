@@ -1,0 +1,56 @@
+# Laravel specific
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+yarn.lock
+
+# Composer specific
+/vendor
+/.idea
+/.vscode
+/storage/*.key
+/.vagrant
+/.idea
+/.vscode
+/storage/*.key
+/.vagrant
+
+# IDE specific
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools
+.komodoproject
+.komodotools
+.idea
+.project
+.classpath
+.settings
+.tmproj
+*.esproj
+.vscode
+.cache
+.cache/
+*.swp
+*~
+\#*\#
+._*
+.DS_Store
+Thumbs.db
+
+# System files
+.DS_Store
+Desktop.ini
+Thumbs.db
+
+# Redis specific
+*.rdb
+
+# Application specific
+/public/uploads
+/storage/logs/*.log
+/node_modules
