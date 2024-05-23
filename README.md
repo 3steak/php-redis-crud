@@ -4,12 +4,7 @@
 Redis est une base de données NoSQL en mémoire, rapide et flexible, utilisée pour stocker, récupérer et gérer des données de manière efficace. Il offre des fonctionnalités avancées telles que le stockage de paires clé-valeur, la prise en charge de structures de données complexes et la mise en cache haute performance.
 
 ## Description de l'Application
-Cette application est une application CRUD (Create, Read, Update, Delete) simple basée sur PHP, JavaScript et HTML. Elle permet à l'utilisateur de télécharger un fichier, de le crypter, puis de le télécharger de nouveau avec sa clé de décryptage. L'application suit une architecture MVC (Modèle-Vue-Contrôleur) pour une organisation claire du code.
-
-### Fonctionnalités de l'application :
-- Téléchargement de fichier : L'utilisateur peut télécharger un fichier.
-- Cryptage de fichier : L'application crypte le fichier téléchargé.
-- Téléchargement de fichier crypté : L'application fournit le fichier crypté en téléchargement, ainsi que la clé de décryptage dans un fichier texte.
+Cette application est une application CRUD (Create, Read, Update, Delete) simple basée sur PHP, JavaScript et HTML. L'application suit une architecture MVC (Modèle-Vue-Contrôleur) pour une organisation claire du code.
 
 ### Architecture de l'application :
 - **Modèles** : Gère les interactions avec la base de données Redis.
